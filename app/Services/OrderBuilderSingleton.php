@@ -100,11 +100,13 @@ class OrderBuilderSingleton
     }
 
     /**
-     * Cria um pedido
+     * Cria um pedido com status inicial "Pedido criado"
      */
     public function createOrder()
     {
-        $this->order = new Order();
+        $this->order = new Order([
+            'status_id' => 1
+        ]);
     }
 
     /**
