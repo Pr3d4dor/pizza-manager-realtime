@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Models\Order;
+use App\Models\Status;
 use App\Models\User;
 
 /**
@@ -104,8 +105,10 @@ class OrderBuilderSingleton
      */
     public function createOrder()
     {
+        $initialStatus = Status::whereName('Pedido Criado')->first();
+
         $this->order = new Order([
-            'status_id' => 1
+            'status_id' => $initialStatus->id
         ]);
     }
 
