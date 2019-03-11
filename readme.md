@@ -26,3 +26,5 @@
 1. `php artisan serve`
 1. Visitar localhost:8000 no navegador
 1. Registrar um novo usuário e um pedido de pizza. Abrir uma nova janela, ir em admin, mudar o status do pedido, olhar na outra janela como status muda em tempo real.
+
+![alt text](https://raw.githubusercontent.com/Pr3d4dor/pizza-manager-realtime/master/pizza-manager-realtime/images/Desenho1.png)
