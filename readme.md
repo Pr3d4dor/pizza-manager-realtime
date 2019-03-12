@@ -27,4 +27,10 @@
 1. Visitar localhost:8000 no navegador
 1. Registrar um novo usuário e um pedido de pizza. Abrir uma nova janela, ir em admin, mudar o status do pedido, olhar na outra janela como status muda em tempo real.
 
+## Diagrama
+
 ![alt text](https://github.com/Pr3d4dor/pizza-manager-realtime/blob/master/images/Desenho1.png)
+
+## Aplicação Rodando
+
+[Pizza Manager](https://pizza-manager-realtime.herokuapp.com)
