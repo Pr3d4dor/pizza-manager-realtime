@@ -15,7 +15,7 @@
         "pusher-js": "^4.4.0",
         "vue-strap": "github:wffranco/vue-strap",
         "vue-timeago": "^3.3.6",
-        "axios": "^0.21.1",
+        "axios": "^0.21.2",
         "bootstrap-sass": "^3.4.1",
         "cross-env": "^5.2.0",
         "jquery": "^3.5.0",
